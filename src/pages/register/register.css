@@ -1,0 +1,46 @@
+.register {
+    height:100vh;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image: url("https://media.istockphoto.com/id/1269027307/photo/business-diary-calendar-notebook-empty-paper-sheets-with-numbers-and-dates-chatrs-metal-pen.webp?s=612x612&w=is&k=20&c=I4Iv-2R4ptgXlLf0A4yA2sI3zTDKy1UdiOYlqCymGXM=");
+    background-size:cover;
+}
+.registerTitle{
+    font-size:50px;
+
+}
+.registerform{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+}
+.registerform>label{
+    margin:10px 0;
+
+}
+.registerInput{
+    padding:10px;
+    background-color:white;
+    border:none;
+}
+.registerButton{
+    margin-top:20px;
+    cursor:pointer;
+    background-color:teal;
+    border:none;
+    color:white;
+    border-radius:10px;
+}
+.registerLoginButton{
+    position:absolute;
+    top:60px;
+    right:20px;
+    background-color:lightcoral;
+    cursor:pointer;
+    border:none;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+}
